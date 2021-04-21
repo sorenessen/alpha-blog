@@ -10,5 +10,4 @@ class User < ApplicationRecord
                       length: { maximum: 105 },
                       format: { with: VALID_EMAIL_REGEX } #using the constant initiated on line 5
   has_secure_password
-
 end
